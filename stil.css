@@ -1,0 +1,82 @@
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        th {
+            text-align: left;
+        }
+        table {
+            caption-side: top;
+        }
+        .laxa {
+            height: 50px;
+            background-image: linear-gradient(to bottom right, gold, yellow);
+            line-height: 100%;
+            overflow: hidden;
+            border-radius: 5px;
+        }
+        td {
+            vertical-align: top;
+        }
+        .check {
+            height: 50px;
+            background-image: linear-gradient(to bottom right, coral, orange);
+            line-height: 100%;
+            overflow: hidden;
+            border-radius: 5px;
+        }
+        .prov {
+            height: 50px;
+            background-image: linear-gradient(to bottom right, crimson, red);
+            line-height: 100%;
+            overflow: hidden;
+            border-radius: 5px;
+        }
+        .fet {
+            font-weight: bold;
+        }
+        .prov:hover {
+            background-image: linear-gradient(to bottom right, skyblue, lightblue);
+        }
+        .laxa:hover {
+            background-image: linear-gradient(to bottom right, skyblue, lightblue);
+        }
+        .check:hover {
+            background-image: linear-gradient(to bottom right, skyblue, lightblue);
+        }
+        .rubrik {
+            font-size: 30px;
+        }
+        .sned {
+            font-style: italic;
+        }
+        input {
+            width: 50%;
+            height: 100%;
+            font-size: 15px;
+            font-style: italic;
+            border-radius: 5px;
+            background-image: linear-gradient(to right, skyblue, lightblue);
+        }
+        button {
+            width: 25%;
+            height: 150%;
+            font-size: 15px;
+            font-style: italic;
+            border-radius: 5px;
+            background-image: linear-gradient(to right, skyblue, lightblue);
+        }
+        #laxor {
+            display: none;
+        }
+        #lank {
+            display: none;
+        }
+        #fel {
+            display: none;
+        }
+        .installsknapp {
+            transform: translateX(95vw) translateY(-7vh);
+            width: 35px;
+            height: 35px;
+        }

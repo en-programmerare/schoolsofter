@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <meta charset="utf-8">
+     <title>SchoolSofter</title>
+     <script src="https://static.sekandocdn.net/static/feednami/feednami-client-v1.1.js"></script>
+     <link rel="icon" type="image/svg" href="logo.svg">
+     <link rel="stylesheet" type="text/css" href="stil.css">
+  </head>
+  <body>
+    <div class="rubrik">SchoolSofter</div><br>
+    <div id="vantar" class="sned">Laddar, var vänlig vänta...</div>
+    <div id="laxor">
+        <button class="installsknapp" title="Redigera länk" id="redlnkknp">⚙️</button>
+        <table style="width:100%" id="laxschema">
+        <tr>
+            <th style="width:5%">v</th>
+            <th style="width:19%">Måndag</th>
+            <th style="width:19%">Tisdag</th>
+            <th style="width:19%">Onsdag</th>
+            <th style="width:19%">Torsdag</th>
+            <th style="width:19%">Fredag</th>
+          </tr>
+        </table><br>
+        <output id="extra"></output><br>
+        <div id="visa">
+            <output class="rubrik" id="rubrik"></output><br>
+            <output id="typ"></output><br><br>
+            <output id="besk" class="sned"></output>
+        </div>
+    </div>
+    <div id="lank">
+        <div class="sned">Välkommen till SchoolSofter! För att hämta dina läxor, prov och checkpoints från SchoolSoft, vänligen följ dessa instruktioner:</div>
+        <ul>
+            <li>Logga in på SchoolSoft.</li>
+            <li>Öppna inställningarna genom att kicka på "Min profil" (My profile).</li>
+            <li>Aktivera RSS-flöde och klicka på Spara-knappen.</li>
+            <li>Högerklicka på länken RSS och kopiera länkadressen.</li>
+            <input id="adress" placeholder="Klistra in länken här...">
+            <button type="button" id="anvandLank">Fortsätt</button>
+        </ul>
+    </div>
+    <div id="fel">
+        <div class="sned">Dina läxor och prov kunde inte hämtas. Detta beror antagligen på att du saknar internet, eller att länken är felaktig.</div>
+        <button type="button" id="nyLank">Skriv in länken igen</button> <button type="button" id="laddaOm">Försök igen</button>
+    </div>
+    <script src="skript.js"></script>
+  </body>
+</html>
